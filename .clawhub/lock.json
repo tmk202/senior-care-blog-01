@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1773116781305
+    },
+    "desktop-control": {
+      "version": "1.0.0",
+      "installedAt": 1773117001085
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1773117202818
+    },
+    "self-improving": {
+      "version": "1.2.10",
+      "installedAt": 1773117248304
+    },
+    "claude-code-mastery": {
+      "version": "1.4.3",
+      "installedAt": 1773117372092
+    }
+  }
+}
