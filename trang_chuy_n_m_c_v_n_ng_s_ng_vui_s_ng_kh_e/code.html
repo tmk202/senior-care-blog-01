@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#60df20",
+                        "background-light": "#f6f8f6",
+                        "background-dark": "#162111",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>Vận động cho người cao tuổi - Sống Vui Sống Khỏe</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<div class="flex items-center gap-4">
+<div class="bg-primary p-2 rounded-lg text-white">
+<span class="material-symbols-outlined text-2xl">exercise</span>
+</div>
+<h1 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Sống Vui Sống Khỏe</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Trang chủ</a>
+<a class="text-sm font-medium hover:text-primary transition-colors border-b-2 border-primary" href="#">Sức khỏe</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Dinh dưỡng</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Vận động</a>
+</nav>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg">search</span>
+<input class="pl-10 pr-4 py-2 bg-slate-100 dark:bg-slate-800 border-none rounded-full text-sm focus:ring-2 focus:ring-primary/50 w-48 lg:w-64" placeholder="Tìm kiếm bài viết..." type="text"/>
+</div>
+<button class="p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+<span class="material-symbols-outlined">person</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative py-12 px-4 sm:px-6 lg:px-8">
+<div class="max-w-7xl mx-auto">
+<div class="relative overflow-hidden rounded-xl h-[400px] md:h-[500px] flex items-center">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-slate-900/40 to-transparent z-10"></div>
+<img alt="Seniors exercising outdoors" class="w-full h-full object-cover" data-alt="Group of happy seniors doing light morning exercise in a park" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBooF-7rTzm9YxjDeHPICPC12_FD9EfaZc1exn9eFFppn5owln4jTUnURqxEEE3YM-gAZxYmoVBthhrZUFheSHwC03eGegJMRjeJp3ra4cMQxHMjNYIZ-0XdkwvgiDR9GdFTpPQ6s5KoYq4wM4qDK_0o4Xnbi93qKzIoUXxLzhwlu0npfbyMup-qAoW5R7SvgmJCRJsoRqhQo3NcoRKwcG0QTLIrJqGBRgG70wP8OlItyd2gJlwV7qSAnzVGSq0S6YJKfQn0pR1LoY"/>
+</div>
+<div class="relative z-20 px-8 md:px-16 max-w-2xl text-white">
+<span class="inline-block px-3 py-1 bg-primary text-slate-900 text-xs font-bold rounded-full mb-4 uppercase tracking-wider">Chuyên mục: Vận động</span>
+<h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-4">Vận động cho người cao tuổi</h2>
+<p class="text-lg text-slate-200 mb-8 leading-relaxed">Khám phá tầm quan trọng của việc duy trì lối sống năng động để tận hưởng tuổi già khỏe mạnh, linh hoạt và tràn đầy hạnh phúc mỗi ngày.</p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary hover:bg-primary/90 text-slate-900 px-6 py-3 rounded-xl font-bold transition-all flex items-center gap-2">
+<span class="material-symbols-outlined">play_circle</span>
+                                Bắt đầu ngay
+                            </button>
+<button class="bg-white/20 backdrop-blur-md hover:bg-white/30 text-white px-6 py-3 rounded-xl font-bold transition-all">
+                                Xem giáo trình
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Area -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Articles List -->
+<div class="lg:col-span-8">
+<div class="flex items-center justify-between mb-8">
+<h3 class="text-2xl font-bold flex items-center gap-3">
+<span class="w-2 h-8 bg-primary rounded-full"></span>
+                            Bài viết mới nhất
+                        </h3>
+<a class="text-primary font-semibold text-sm flex items-center gap-1 hover:underline" href="#">
+                            Tất cả bài viết
+                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="space-y-8">
+<!-- Article 1 -->
+<article class="flex flex-col md:flex-row gap-6 bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow group">
+<div class="md:w-2/5 shrink-0 overflow-hidden rounded-lg">
+<img alt="Yoga session" class="w-full h-48 md:h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Elderly woman practicing gentle yoga stretches on a mat at home" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALRVLKXXoO_2acUwVNX4K6m6mXkSpe-0hxmT3cDa3ZL9kXozC5MZ3-yi6YnAH588n-aGy2tXGwBADGOpf0pPU4_l6xLQ1X5DxVbHRZ6LWgYc60fuYem1Swbk0jQrMNUjKezUC9p5t4Q62zwTbE5wdGCuZlb1mTszDcVJA02xibfqTQ8PnWHmYBIOF5z1v7NJiR96GZwGnMLVahu5AIUr-4ML1SEqoCOr1yCwrLttv5gssv-IcMP-dv031VCa-iWfiEXjD1g26nO4A"/>
+</div>
+<div class="flex flex-col justify-center">
+<span class="text-primary text-xs font-bold mb-2 uppercase tracking-widest">Yoga &amp; Thiền</span>
+<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Yoga nhẹ nhàng cho xương khớp</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4 line-clamp-2">Hướng dẫn các bài tập yoga đơn giản tại nhà giúp tăng cường độ dẻo dai của khớp và giảm đau mỏi cơ bắp hiệu quả.</p>
+<div class="mt-auto flex items-center justify-between">
+<div class="flex items-center gap-2 text-xs text-slate-500">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+                                        24/05/2024
+                                    </div>
+<button class="text-primary font-bold text-sm">Đọc thêm</button>
+</div>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="flex flex-col md:flex-row gap-6 bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow group">
+<div class="md:w-2/5 shrink-0 overflow-hidden rounded-lg">
+<img alt="Senior walking" class="w-full h-48 md:h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Active senior couple walking briskly in a sunny autumn park" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJoFSpYQeNeEgP4Aw72jK9aToA88umHsPTUDtm4-4JWYQQQtGHrFYkgt-YlpkvV-SJwYfsKofk-hvtpvRb-AtZzytGPWGPGopPtca00YlWtSdjzQFEazquYQcfZrnybY-qjAW2tZPGxEqANhOJccMttck9Q2zZhoRGbE-OuTQcTnv19PzOWTplRcT1M7ZrlLG931VC3FHQt1aYcCmvCYY_2HbRWmihVa2Y2VpIjjiwLRTlgt3qdJcBne4G-ANLT_0n-3g8YO9p7wY"/>
+</div>
+<div class="flex flex-col justify-center">
+<span class="text-primary text-xs font-bold mb-2 uppercase tracking-widest">Tim mạch</span>
+<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Lợi ích của việc đi bộ mỗi ngày</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4 line-clamp-2">Chỉ 30 phút đi bộ mỗi sáng giúp cải thiện sức khỏe tim mạch, điều hòa huyết áp và nạp năng lượng tích cực cho cả ngày.</p>
+<div class="mt-auto flex items-center justify-between">
+<div class="flex items-center gap-2 text-xs text-slate-500">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+                                        22/05/2024
+                                    </div>
+<button class="text-primary font-bold text-sm">Đọc thêm</button>
+</div>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="flex flex-col md:flex-row gap-6 bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow group">
+<div class="md:w-2/5 shrink-0 overflow-hidden rounded-lg">
+<img alt="Tai Chi practice" class="w-full h-48 md:h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Group of seniors practicing slow Tai Chi movements in a serene courtyard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4NmaWWW-AHdgSmA2Sl2eZjEwEjthMG7KiaIZSEbFvM1e05ZqobaE-s_J6bMDgLlmewAgD64sZMrOEYG8pV7_dpEBe8_sGmArnvWJ2Tbe33XDJTzVSgaD7dv3uyKrkcdJ8gSAIlqa_yljaXzzensM6PjHQTNvA3_kBwWEub1Uk-fvQUa9TF5W2Up5I1yDD-EuMoAVzypWl-sM-rYlv8V-jB4b5RGlUr-XYmdz4_U_iyh8kx3O1NRU3PamHp_wDAhxSJmz-ay0XWJk"/>
+</div>
+<div class="flex flex-col justify-center">
+<span class="text-primary text-xs font-bold mb-2 uppercase tracking-widest">Cân bằng &amp; Tĩnh tâm</span>
+<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Thái Cực Quyền: Chìa khóa của sự thăng bằng</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4 line-clamp-2">Khám phá cách Thái Cực Quyền giúp người cao tuổi cải thiện khả năng giữ thăng bằng và ngăn ngừa nguy cơ té ngã.</p>
+<div class="mt-auto flex items-center justify-between">
+<div class="flex items-center gap-2 text-xs text-slate-500">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+                                        20/05/2024
+                                    </div>
+<button class="text-primary font-bold text-sm">Đọc thêm</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!-- Sidebar -->
+<aside class="lg:col-span-4 space-y-12">
+<!-- Expert Tips Section -->
+<section class="bg-primary/10 rounded-xl p-6 border border-primary/20">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">medical_services</span>
+<h3 class="text-xl font-bold">Góc Chuyên Gia</h3>
+</div>
+<div class="flex items-center gap-4 mb-4">
+<img alt="Physiotherapist" class="w-16 h-16 rounded-full object-cover border-2 border-primary" data-alt="Portrait of a smiling professional geriatric physiotherapist in clinical attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcJ11tFzl5FsiXswMrbPJfYPEBz5QAKJfgY9A4lbIH0HU3wTlITY6EIB3haz2s8Hx4gIKHoxdlLO0C5O9057oE4Vsi_FtqwVjfUEKGtfn68sJqUxMSIp8v-auCjcAi2fwc12Qe-4c5sq3Mx9WTpqWzeDdBOWZP2lN0invPvyBCyIYSZlnY4mmND7g-LDscBI8-MfAfukKuM6hYUr8WrtW0VBq1ush0ZpNaHRYkLBlInFHbxLEeg7Jc3YPbxq5kKiVx4xSHrPwOC5w"/>
+<div>
+<h4 class="font-bold text-sm">BS. Nguyễn Văn An</h4>
+<p class="text-xs text-slate-500">Chuyên khoa Vật lý trị liệu</p>
+</div>
+</div>
+<div class="relative bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm">
+<span class="material-symbols-outlined absolute -top-3 -left-1 text-primary/30 text-4xl leading-none">format_quote</span>
+<p class="text-sm italic text-slate-600 dark:text-slate-300 relative z-10 leading-relaxed">
+                                "Đối với người cao tuổi, sự kiên trì quan trọng hơn cường độ. Hãy bắt đầu từ 10 phút mỗi ngày và lắng nghe cơ thể mình. Đừng bao giờ tập quá sức khiến cơ thể cảm thấy đau đớn."
+                            </p>
+</div>
+<button class="w-full mt-6 py-2 border-2 border-primary text-primary hover:bg-primary hover:text-slate-900 font-bold rounded-lg transition-all text-sm">
+                            Đặt câu hỏi cho bác sĩ
+                        </button>
+</section>
+<!-- Recommended Exercises Section -->
+<section>
+<h3 class="text-xl font-bold mb-6 flex items-center gap-3">
+<span class="w-2 h-8 bg-slate-200 dark:bg-slate-700 rounded-full"></span>
+                            Bài tập gợi ý
+                        </h3>
+<div class="space-y-4">
+<div class="flex items-start gap-4 p-4 rounded-xl hover:bg-white dark:hover:bg-slate-800 transition-colors">
+<div class="bg-primary/20 p-3 rounded-lg text-primary shrink-0">
+<span class="material-symbols-outlined">directions_walk</span>
+</div>
+<div>
+<h5 class="font-bold text-sm mb-1">Đi bộ nhanh</h5>
+<p class="text-xs text-slate-500">Cải thiện hệ tim mạch, thực hiện 30 phút/ngày.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl hover:bg-white dark:hover:bg-slate-800 transition-colors">
+<div class="bg-primary/20 p-3 rounded-lg text-primary shrink-0">
+<span class="material-symbols-outlined">pool</span>
+</div>
+<div>
+<h5 class="font-bold text-sm mb-1">Bơi lội</h5>
+<p class="text-xs text-slate-500">Tốt cho xương khớp, giảm áp lực lên cột sống.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl hover:bg-white dark:hover:bg-slate-800 transition-colors">
+<div class="bg-primary/20 p-3 rounded-lg text-primary shrink-0">
+<span class="material-symbols-outlined">fitness_center</span>
+</div>
+<div>
+<h5 class="font-bold text-sm mb-1">Tập tạ nhẹ</h5>
+<p class="text-xs text-slate-500">Duy trì khối lượng cơ bắp và độ chắc khỏe của xương.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter -->
+<section class="bg-slate-900 dark:bg-primary text-white dark:text-slate-900 rounded-xl p-6 overflow-hidden relative">
+<div class="relative z-10">
+<h3 class="text-lg font-bold mb-2">Nhận bí quyết sức khỏe</h3>
+<p class="text-xs text-slate-300 dark:text-slate-800 mb-6">Đăng ký để nhận những bài viết mới nhất về vận động hàng tuần.</p>
+<form class="space-y-3">
+<input class="w-full px-4 py-2 rounded-lg bg-white/10 dark:bg-slate-900/10 border-white/20 dark:border-slate-900/20 text-white dark:text-slate-900 placeholder:text-slate-400 dark:placeholder:text-slate-600 focus:ring-primary" placeholder="Email của bạn" type="email"/>
+<button class="w-full py-2 bg-primary dark:bg-slate-900 text-slate-900 dark:text-white font-bold rounded-lg hover:scale-[1.02] transition-transform">Đăng ký ngay</button>
+</form>
+</div>
+<span class="material-symbols-outlined absolute -bottom-8 -right-8 text-white/5 dark:text-slate-900/5 text-9xl">mail</span>
+</section>
+</aside>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-white dark:bg-slate-900 border-t border-slate-100 dark:border-slate-800 pt-16 pb-8">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-3 mb-6">
+<div class="bg-primary p-2 rounded-lg text-white">
+<span class="material-symbols-outlined">exercise</span>
+</div>
+<h2 class="text-xl font-bold text-slate-900 dark:text-white">Sống Vui Sống Khỏe</h2>
+</div>
+<p class="text-slate-500 dark:text-slate-400 max-w-sm mb-6 leading-relaxed">
+                        Cổng thông tin chuyên biệt cung cấp kiến thức về sức khỏe, dinh dưỡng và vận động dành riêng cho người cao tuổi Việt Nam.
+                    </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-xl">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-xl">video_library</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-xl">group</span>
+</a>
+</div>
+</div>
+<div>
+<h5 class="font-bold mb-6">Liên kết nhanh</h5>
+<ul class="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Chính sách bảo mật</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Điều khoản sử dụng</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Về chúng tôi</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Liên hệ</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold mb-6">Chuyên mục</h5>
+<ul class="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Sức khỏe tim mạch</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Dinh dưỡng hợp lý</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Yoga &amp; Thiền</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Tâm lý tuổi già</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-slate-100 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+<p>© 2024 Sống Vui Sống Khỏe. Bảo lưu mọi quyền.</p>
+<div class="flex gap-8">
+<p>Hotline: 1800-1234</p>
+<p>Email: contact@songvui.vn</p>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

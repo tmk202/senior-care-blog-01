@@ -9,7 +9,7 @@ async function callGemini(prompt) {
     for (let i = 0; i < API_KEYS.length; i++) {
         const key = API_KEYS[currentKeyIndex];
         currentKeyIndex = (currentKeyIndex + 1) % API_KEYS.length;
-        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`;
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.0-flash-lite:generateContent?key=${key}`;
         
         try {
             const response = await axios.post(url, {
@@ -20,7 +20,7 @@ async function callGemini(prompt) {
                 return response.data.candidates[0].content.parts[0].text;
             }
         } catch (error) {
-            console.warn(`[Fail] Key ${key.substring(0,5)}... lỗi. Đang thử key khác...`);
+            console.warn(`[Fail] Key ${key.substring(0,5)}... lỗi: ${error.message}. Đang thử key khác...`);
         }
     }
     return null;

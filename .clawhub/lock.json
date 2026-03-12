@@ -20,6 +20,10 @@
     "claude-code-mastery": {
       "version": "1.4.3",
       "installedAt": 1773117372092
+    },
+    "discord": {
+      "version": "1.0.1",
+      "installedAt": 1773137886656
     }
   }
 }

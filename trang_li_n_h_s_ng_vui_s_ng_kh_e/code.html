@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Liên hệ - Sống Vui Sống Khỏe</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#60df20",
+                        "background-light": "#f6f8f6",
+                        "background-dark": "#162111",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+<div class="relative flex min-h-screen flex-col">
+<!-- Navigation Bar -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-white">
+<span class="material-symbols-outlined">health_and_safety</span>
+</div>
+<h1 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Sống Vui Sống Khỏe</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Trang chủ</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Bài viết</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Về chúng tôi</a>
+<a class="text-primary font-bold" href="#">Liên hệ</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-[20px]">person</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-20">
+<div class="max-w-3xl">
+<span class="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wide uppercase rounded-full bg-primary/10 text-primary">Liên hệ với chúng tôi</span>
+<h2 class="text-4xl md:text-5xl font-black leading-tight tracking-tight mb-6">Chúng tôi luôn sẵn sàng lắng nghe &amp; hỗ trợ cộng đồng</h2>
+<p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 font-normal leading-relaxed">
+                        Bạn có thắc mắc về sức khỏe người cao tuổi hay muốn đóng góp ý kiến cho blog? Đừng ngần ngại kết nối với đội ngũ chuyên gia của chúng tôi.
+                    </p>
+</div>
+</section>
+<!-- Content Grid -->
+<section class="mx-auto max-w-7xl px-6 pb-20 md:px-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+<!-- Contact Form Card -->
+<div class="bg-white dark:bg-slate-900 p-8 md:p-10 rounded-xl shadow-sm border border-slate-100 dark:border-slate-800">
+<h3 class="text-2xl font-bold mb-8">Gửi tin nhắn cho chúng tôi</h3>
+<form action="#" class="space-y-6" method="POST">
+<div class="space-y-2">
+<label class="text-sm font-semibold text-slate-700 dark:text-slate-300" for="full-name">Họ và tên</label>
+<input class="w-full h-14 px-4 rounded-xl border-slate-200 dark:border-slate-800 dark:bg-slate-950 focus:ring-primary focus:border-primary text-base" id="full-name" name="name" placeholder="Nhập họ và tên của bạn" required="" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-semibold text-slate-700 dark:text-slate-300" for="email">Địa chỉ Email</label>
+<input class="w-full h-14 px-4 rounded-xl border-slate-200 dark:border-slate-800 dark:bg-slate-950 focus:ring-primary focus:border-primary text-base" id="email" name="email" placeholder="email@vidu.com" required="" type="email"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-semibold text-slate-700 dark:text-slate-300" for="message">Lời nhắn của bạn</label>
+<textarea class="w-full px-4 py-3 rounded-xl border-slate-200 dark:border-slate-800 dark:bg-slate-950 focus:ring-primary focus:border-primary text-base" id="message" name="message" placeholder="Chúng tôi có thể giúp gì cho bạn?" required="" rows="5"></textarea>
+</div>
+<button class="w-full h-14 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined">send</span>
+                                Gửi tin nhắn ngay
+                            </button>
+</form>
+</div>
+<!-- Information & Map -->
+<div class="flex flex-col gap-10">
+<address class="not-italic grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8">
+<div class="flex gap-4 p-6 rounded-xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Địa chỉ văn phòng</h4>
+<p class="text-slate-600 dark:text-slate-400">123 Đường Sức Khỏe, Quận 1<br/>Thành phố Hồ Chí Minh, Việt Nam</p>
+</div>
+</div>
+<div class="flex gap-4 p-6 rounded-xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Số điện thoại</h4>
+<p class="text-slate-600 dark:text-slate-400 mb-1">Hotline: (028) 1234 5678</p>
+<p class="text-slate-600 dark:text-slate-400">Tư vấn: 1900 8888</p>
+</div>
+</div>
+<div class="flex gap-4 p-6 rounded-xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Email hỗ trợ</h4>
+<p class="text-slate-600 dark:text-slate-400">hotro@songvuisongkhoe.vn</p>
+<p class="text-slate-600 dark:text-slate-400">lienhe@songvuisongkhoe.vn</p>
+</div>
+</div>
+</address>
+<!-- Map Placeholder -->
+<div class="flex-grow min-h-[300px] rounded-xl overflow-hidden relative border-4 border-white dark:border-slate-900 shadow-md">
+<div class="absolute inset-0 bg-slate-200 dark:bg-slate-800 flex items-center justify-center">
+<img class="w-full h-full object-cover opacity-60 grayscale hover:grayscale-0 transition-all duration-700" data-alt="Bản đồ vị trí văn phòng tại thành phố Hồ Chí Minh" data-location="Ho Chi Minh City" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxqp0hFWR3kEskLv-4VhSEC4ZJF0TrmsoXy80962JPuO0Xsasy9Zl_Z5SscqLBjVb8PFFNkhAYwfPicnIQ-RK0oxq9Dn2kgC18rXPrVwlxx_Mp7yW2sTru-3wu2tsj7g10tTt8YM2LzJH4Cio0Mb5UubfwWZv2tzemI7rZAcIgI1hGVDvDpxFZzeiIQ1Zm_Zdzt8TrFuY1mKfEMMbj7dU245nbIPZDkvxAPsGGh5vkZYrLDi2F5fHw-VXfF26XHJwkCz1pHmkbo6c"/>
+<div class="absolute flex flex-col items-center">
+<div class="h-16 w-16 bg-primary rounded-full flex items-center justify-center text-white shadow-xl animate-bounce">
+<span class="material-symbols-outlined text-3xl">location_on</span>
+</div>
+<div class="mt-2 px-4 py-2 bg-white dark:bg-slate-900 rounded-lg shadow-lg font-bold">
+                                        Văn phòng của chúng tôi
+                                    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-12">
+<div class="mx-auto max-w-7xl px-6 md:px-10 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-base">health_and_safety</span>
+</div>
+<span class="text-lg font-bold text-slate-900 dark:text-white">Sống Vui Sống Khỏe</span>
+</div>
+<div class="flex gap-8 text-sm font-medium text-slate-500 dark:text-slate-400">
+<a class="hover:text-primary" href="#">Chính sách bảo mật</a>
+<a class="hover:text-primary" href="#">Điều khoản sử dụng</a>
+<a class="hover:text-primary" href="#">Câu hỏi thường gặp</a>
+</div>
+<div class="text-sm text-slate-500 dark:text-slate-400">
+                    © 2024 Sống Vui Sống Khỏe. Bảo lưu mọi quyền.
+                </div>
+</div>
+</footer>
+</div>
+</body></html>

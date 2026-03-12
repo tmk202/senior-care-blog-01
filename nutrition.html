@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html class="light" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dinh dưỡng cho người cao tuổi - Sống Vui Sống Khỏe</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#60df20",
+                        "background-light": "#f6f8f6",
+                        "background-dark": "#162111",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased">
+<header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<div class="flex items-center gap-3">
+<div class="text-primary">
+<span class="material-symbols-outlined text-4xl">eco</span>
+</div>
+<h1 class="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Sống Vui Sống Khỏe</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-base font-medium hover:text-primary transition-colors" href="index.html">Trang chủ</a>
+<a class="text-base font-medium text-primary border-b-2 border-primary" href="index.html">Dinh dưỡng</a>
+<a class="text-base font-medium hover:text-primary transition-colors" href="index.html">Vận động</a>
+<a class="text-base font-medium hover:text-primary transition-colors" href="index.html">Tâm lý</a>
+<a class="text-base font-medium hover:text-primary transition-colors" href="index.html">Về chúng tôi</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-full hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="hidden sm:flex bg-primary text-slate-900 px-6 py-2 rounded-full font-bold hover:opacity-90 transition-opacity">
+                        Đăng nhập
+                    </button>
+</div>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative py-20 overflow-hidden bg-primary/5">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="max-w-3xl">
+<nav aria-label="Breadcrumb" class="flex mb-4 text-sm font-medium text-slate-500">
+<ol class="flex items-center space-x-2">
+<li><a class="hover:text-primary" href="index.html">Trang chủ</a></li>
+<li><span class="material-symbols-outlined text-xs">chevron_right</span></li>
+<li class="text-primary">Dinh dưỡng</li>
+</ol>
+</nav>
+<h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 dark:text-slate-100 mb-6 leading-tight">
+                        Dinh dưỡng cho <br/><span class="text-primary">người cao tuổi</span>
+</h1>
+<p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 leading-relaxed mb-8">
+                        Chế độ ăn uống khoa học là chìa khóa vàng giúp người cao tuổi duy trì sức khỏe, tăng cường hệ miễn dịch và tận hưởng cuộc sống vui khỏe mỗi ngày. Khám phá các thực đơn và lời khuyên từ chuyên gia hàng đầu.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-primary text-slate-900 px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-primary/20 transition-all" href="#articles">Xem bài viết</a>
+<a class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-all" href="#expert-tips">Lời khuyên chuyên gia</a>
+</div>
+</div>
+</div>
+<div class="absolute right-0 top-0 w-1/3 h-full hidden lg:block">
+<div class="w-full h-full bg-primary/20 rounded-l-[100px] flex items-center justify-center">
+<span class="material-symbols-outlined text-[200px] text-primary/30">restaurant</span>
+</div>
+</div>
+</section>
+<!-- Main Content Area -->
+<section class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col lg:flex-row gap-12">
+<!-- Articles Grid -->
+<div class="lg:w-2/3" id="articles">
+<div class="flex items-center justify-between mb-10">
+<h2 class="text-3xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-3">
+<span class="w-2 h-8 bg-primary rounded-full"></span>
+                            Bài viết mới nhất
+                        </h2>
+</div>
+<div class="grid gap-10">
+<!-- Article 1 -->
+<article class="group flex flex-col md:flex-row gap-6 bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100 dark:border-slate-700">
+<div class="md:w-2/5 shrink-0 overflow-hidden rounded-xl h-56 md:h-auto">
+<img alt="Các loại thực phẩm tốt cho hệ tim mạch" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Healthy fresh vegetable salad in a bowl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAo2eGwGUjJNacBSwNEkz9CjXqm8po-8QzUi63s91rHw6p0sZY4z46T4BLopfLkfpbafSLEk8K-FtEjhGO-dKtkFkl6VI770nkYH-6YQaCQHW_-dY_rv_wladWOL7dPlwIkT3uQzmfuJ-lmgjrYqkh33FeCxbJqxLP6f_SNMjXjP7pPWmjpxV2bfDZA9mPB0H10DfSESOzYvZF2j_4hOpyD3WnMHIY7Arf_o5pj70UDrJzRumbClkWlp-s-grYnMtNgTaOHXSKEvDM"/>
+</div>
+<div class="flex flex-col justify-center">
+<span class="text-primary font-bold text-sm uppercase tracking-wider mb-2">Sức khỏe tim mạch</span>
+<h3 class="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">Thực phẩm tốt cho tim mạch người già</h3>
+<p class="text-slate-600 dark:text-slate-400 mb-6 line-clamp-2 text-lg">
+                                    Bảo vệ trái tim khỏe mạnh với các loại hạt, cá béo và rau xanh đậm màu. Những thực phẩm giàu Omega-3 và chất xơ giúp kiểm soát cholesterol hiệu quả.
+                                </p>
+<div class="mt-auto flex items-center justify-between">
+<div class="flex items-center gap-2 text-slate-500 text-sm">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+                                        24/05/2024
+                                    </div>
+<a class="flex items-center gap-1 font-bold text-primary hover:gap-2 transition-all" href="index.html">
+                                        Đọc thêm <span class="material-symbols-outlined">arrow_right_alt</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="group flex flex-col md:flex-row gap-6 bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100 dark:border-slate-700">
+<div class="md:w-2/5 shrink-0 overflow-hidden rounded-xl h-56 md:h-auto">
+<img alt="Gia vị thay thế muối trong nấu ăn" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up of herbs and spices on wood" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD98eGmmR5tQi-pNin-ywo-eYiZL7QUp8nTQW6HgkcLcAjWIxQvX_-4xuXiUjSx2QZKKWIJHjVHG4zHHZ5ybN0sQT7v2F6ZRyzqI4lkpBx-NOk-7XV-rMUdjTD4ThvpWX7ZqT0omceswcSro7wuyqy-BKBFeCVH7Et8iZJA_08pMji9YHCNrMszz2S1PWiYKbzOPyFwEt2CeRfUxCOKMVWcxq5zWQC96jX_jgawgD0C5P3M27_7tpgisqCqNifIRYd8wSJEN3DDs4c"/>
+</div>
+<div class="flex flex-col justify-center">
+<span class="text-primary font-bold text-sm uppercase tracking-wider mb-2">Chế độ ăn kiêng</span>
+<h3 class="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">Chế độ ăn giảm muối: Bí quyết hạ huyết áp</h3>
+<p class="text-slate-600 dark:text-slate-400 mb-6 line-clamp-2 text-lg">
+                                    Cách cắt giảm lượng muối trong khẩu phần ăn hàng ngày mà vẫn giữ được hương vị thơm ngon nhờ sử dụng các loại thảo mộc tự nhiên thay thế.
+                                </p>
+<div class="mt-auto flex items-center justify-between">
+<div class="flex items-center gap-2 text-slate-500 text-sm">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+                                        22/05/2024
+                                    </div>
+<a class="flex items-center gap-1 font-bold text-primary hover:gap-2 transition-all" href="index.html">
+                                        Đọc thêm <span class="material-symbols-outlined">arrow_right_alt</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="group flex flex-col md:flex-row gap-6 bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100 dark:border-slate-700">
+<div class="md:w-2/5 shrink-0 overflow-hidden rounded-xl h-56 md:h-auto">
+<img alt="Các loại vitamin tổng hợp" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Fresh citrus fruits rich in vitamins" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4VhcqO2rKODIPqrYgp1VMroW4LD8jCRAW2OcPW6HWwClqXVhPkJeUEcdejw7lU2m63JSvoMo4vDdvhvvg-bRefOS2QrlvAJHHiv3df31hssVFC5MedE-7mGDBfzLWY6ab28CZgG4vIs_9NUpvqXOKnM3BjSjN57a2LFItUNmJQWxQvo_Qq8rzcj14Asng2LeMzKpWV9VyJ4akU4ApzAjaCTD86iWqwjLYoDL2dzBS8hDgJZ3emgEMS1Nwmxf_YlXn7ms8mZFLTfQ"/>
+</div>
+<div class="flex flex-col justify-center">
+<span class="text-primary font-bold text-sm uppercase tracking-wider mb-2">Bổ sung vi chất</span>
+<h3 class="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">Vitamin thiết yếu cho sức đề kháng tuổi già</h3>
+<p class="text-slate-600 dark:text-slate-400 mb-6 line-clamp-2 text-lg">
+                                    Danh sách các loại Vitamin D, B12 và Canxi cần thiết giúp tăng cường hệ miễn dịch và bảo vệ xương khớp cho người lớn tuổi.
+                                </p>
+<div class="mt-auto flex items-center justify-between">
+<div class="flex items-center gap-2 text-slate-500 text-sm">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+                                        20/05/2024
+                                    </div>
+<a class="flex items-center gap-1 font-bold text-primary hover:gap-2 transition-all" href="index.html">
+                                        Đọc thêm <span class="material-symbols-outlined">arrow_right_alt</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="mt-12 flex justify-center">
+<button class="flex items-center gap-2 px-8 py-3 border-2 border-primary text-primary font-bold rounded-xl hover:bg-primary hover:text-white transition-all">
+                            Xem thêm bài viết
+                            <span class="material-symbols-outlined">expand_more</span>
+</button>
+</div>
+</div>
+<!-- Sidebar -->
+<aside class="lg:w-1/3 space-y-10">
+<!-- Expert Advice Section -->
+<section class="bg-primary/10 rounded-2xl p-8 border border-primary/20" id="expert-tips">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">medical_services</span>
+<h2 class="text-xl font-bold text-slate-900 dark:text-slate-100">Lời khuyên từ chuyên gia</h2>
+</div>
+<div class="space-y-6">
+<div class="bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm italic text-slate-600 dark:text-slate-300">
+                                "Nên chia nhỏ bữa ăn thành 5-6 bữa mỗi ngày để hệ tiêu hóa của người già không bị quá tải."
+                                <div class="mt-3 font-bold not-italic text-slate-900 dark:text-slate-100 text-sm">- BS. Nguyễn Văn An</div>
+</div>
+<div class="bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm italic text-slate-600 dark:text-slate-300">
+                                "Uống đủ 1.5 - 2 lít nước mỗi ngày, kể cả khi không thấy khát để duy trì trao đổi chất."
+                                <div class="mt-3 font-bold not-italic text-slate-900 dark:text-slate-100 text-sm">- Chuyên gia Dinh dưỡng Minh Hà</div>
+</div>
+</div>
+</section>
+<!-- Recommended Food Groups -->
+<section class="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">grocery</span>
+<h2 class="text-xl font-bold text-slate-900 dark:text-slate-100">Nhóm thực phẩm khuyên dùng</h2>
+</div>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<div>
+<span class="font-bold block">Ngũ cốc nguyên hạt</span>
+<p class="text-sm text-slate-500">Gạo lứt, yến mạch giàu chất xơ.</p>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<div>
+<span class="font-bold block">Đạm dễ tiêu hóa</span>
+<p class="text-sm text-slate-500">Ức gà, đậu phụ, các loại cá béo.</p>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<div>
+<span class="font-bold block">Rau củ nhiều màu sắc</span>
+<p class="text-sm text-slate-500">Bông cải xanh, cà rốt, bí đỏ.</p>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<div>
+<span class="font-bold block">Sữa và sản phẩm từ sữa</span>
+<p class="text-sm text-slate-500">Sữa ít béo, sữa chua lên men.</p>
+</div>
+</li>
+</ul>
+</section>
+</aside>
+</div>
+</section>
+</main>
+<footer class="bg-slate-900 text-slate-400 py-16">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-3 text-white mb-6">
+<span class="material-symbols-outlined text-3xl text-primary">eco</span>
+<span class="text-2xl font-bold">Sống Vui Sống Khỏe</span>
+</div>
+<p class="max-w-md text-lg">
+                        Cổng thông tin sức khỏe dành riêng cho người cao tuổi Việt Nam. Chúng tôi đồng hành cùng bạn trên hành trình tận hưởng tuổi vàng viên mãn.
+                    </p>
+</div>
+<div>
+<h4 class="text-white font-bold text-lg mb-6">Chuyên mục</h4>
+<ul class="space-y-4">
+<li><a class="hover:text-primary transition-colors" href="index.html">Dinh dưỡng</a></li>
+<li><a class="hover:text-primary transition-colors" href="index.html">Vận động</a></li>
+<li><a class="hover:text-primary transition-colors" href="index.html">Tâm lý</a></li>
+<li><a class="hover:text-primary transition-colors" href="index.html">Bệnh người già</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold text-lg mb-6">Liên hệ</h4>
+<ul class="space-y-4">
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">mail</span>
+                            info@songvuisongkhoe.vn
+                        </li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">call</span>
+                            1900 1234
+                        </li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p>© 2024 Sống Vui Sống Khỏe. Tất cả quyền được bảo lưu.</p>
+<div class="flex gap-6">
+<a class="hover:text-primary transition-colors text-2xl" href="index.html"><span class="material-symbols-outlined">public</span></a>
+<a class="hover:text-primary transition-colors text-2xl" href="index.html"><span class="material-symbols-outlined">video_library</span></a>
+<a class="hover:text-primary transition-colors text-2xl" href="index.html"><span class="material-symbols-outlined">groups</span></a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
